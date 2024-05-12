@@ -1,0 +1,109 @@
+/* Basic CSS Stylesheet for SPL Labs Website */
+
+/* Reset some basic elements */
+body, h1, h2, h3, p, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Hero Section Styles */
+#hero {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Introduction Section Styles */
+#introduction {
+    background: #e2e2e2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Call-to-Action Section Styles */
+#cta {
+    background: #52b788;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#cta a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #333;
+    display: inline-block;
+}
+
+/* Trust Signals Section Styles */
+#trust-signals {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact Form Styles */
+#contact-form {
+    background: #fff;
+    padding: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Additional Contact Information Styles */
+#additional-info {
+    background: #fff;
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+}
